@@ -1,254 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The band</title>
-    <link rel="icon" href="./assests/img/icon page/icon_page.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./assests/css/style.css">
-    <link rel="stylesheet" href="./assests/font/themify-icons/themify-icons.css">
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-    <div id="main">
-        <div id="header">
-            <!-- Begin-nav -->
-            <ul id="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#band">Band</a></li>
-                <li><a href="#tour">Tour</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li>
-                    <a href="">
-                        More
-                        <i class="nav-arrow-down ti-angle-down"></i>
-                    </a>
-                    <ul class="subnav">
-                        <li><a href="#">Merchandise</a></li>
-                        <li><a href="#">Extras</a></li>
-                        <li><a href="#">Media</a></li>
-                    </ul>
-                </li>
-            </ul>
-            <!-- End-nav -->
+	<!----hero Section start---->
 
-            <!-- Begin-search button -->
-            <div class="search-btn">
-                <i class="search-icon ti-search"></i>
-            </div>
-            <!-- End-search button -->
-        </div>
-        
-        <div id="slider">
-            <div class="text-content">
-                <h2 class="text-heading">New York</h2>
-                <div class="text-discription">The atmosphere in New York is lorem ipsum.</div>
-            </div>      
-        </div>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+			<a href="#" class="btn">Subscribe</a>
+		</nav>
 
-        <div id="content">
-            <!-- about section -->
-            <div id="band" class="content-section">
-                <h2 class="section-heading">THE BAND</h2>
-                <p class="section-sub-heading">We love music</p>
-                <p class="about-text">
-                    We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Tahmid <span>Ahmed</span></h1>
+			<h3>I'am a Web Developer.</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Lets Start">
+				</form>
+			</div>
+		</div>
+	</div>
 
-                <div class="member-list">
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assests/img/band/mem1.jpg" alt="Name" class="member-img">
-                    </div>
+	<!----About section start---->
+	<section class="about">
+		<div class="main">
+			<img src="img/main-img.png">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
 
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assests/img/band/mem1.jpg" alt="Name" class="member-img">
-                    </div>
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+			<h2>Our Services</h2>
+		</div>
 
-                    <div class="member-item">
-                        <p class="member-name">Name</p>
-                        <img src="./assests/img/band/mem1.jpg" alt="Name" class="member-img">
-                    </div>
-                    <div class="clear"></div>
-                </div>            
-            </div>
-            
-            <!-- Tour section -->
-            <div id="tour" class="tour-section">
-                <div class="content-section">
-                    <h2 class="section-heading text-while">TOUR DATES</h2>
-                    <p class="section-sub-heading text-while">Remember to book your tickets!</p>
-                    <!-- Ticket-list -->
-                    <ul class="tickets-list">
-                        <li>September <span class="sold-out">Sold out</span> </li>
-                        <li>October <span class="sold-out">Sold out</span> </li>
-                        <li>November <span class="quantity">3</span></li>
-                    </ul>
-                    <!-- Place -->
-                    <div class="row places-list">
-                        <div class="col col-third">
-                            <img src="./assests/img/places/place1.jpg" alt="New York" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">New York</h3>
-                                <div class="place-time">Fri 27 Nov 2016</div>
-                                <div class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
-                                <!-- 5p26 -->
-                            </div> 
-                        </div>
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-                        <div class="col col-third">
-                            <img src="./assests/img/places/place2.jpg" alt="Paris" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">Paris</h3>
-                                <div class="place-time">Sat 28 Nov 2016</div>
-                                <div class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
-                                <!-- 5p26 -->
-                            </div> 
-                        </div>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
 
-                        <div class="col col-third">
-                            <img src="./assests/img/places/place3.jpg" alt="San Francisco" class="place-img">
-                            <div class="place-body">
-                                <h3 class="place-heading">San Francisco</h3>
-                                <div class="place-time">Sun 29 Nov 2016</div>
-                                <div class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</div>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
-                                <!-- 5p26 -->
-                            </div> 
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Begin-Contact section -->
-            <div id="contact" class="contact-section">
-                <div class="content-section">
-                    <h2 class="section-heading">CONTACT</h2>
-                    <p class="section-sub-heading">Fan? Drop a note!</p>
-    
-                    <div class="row">
-                        <div class="col col-half contact-inf">
-                            <p><i class="ti-location-pin"></i>Chicago, US</p>
-                            <p><i class="ti-mobile"></i>Phone: +00 151515</p>
-                            <p><i class="ti-email"></i>Email: mail@mail.com</p>
-                        </div>
-                        <div class="col col-half contact-form">
-                            <form action="">
-                                <div class="row">
-                                    <div class="col col-half">
-                                        <input type="text" name="" id="" required class="form-control" placeholder="Name">                                    
-                                    </div>
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-                                    <div class="col col-half">
-                                        <input type="email" name="" id="" required class="form-control" placeholder="Email">                                    
-                                    </div>                                  
-                                </div>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
 
-                                <div class="row mt-8">
-                                    <div class="col col-half">
-                                        <input type="text" name="" id="" required class="form-control" placeholder="Message">                                    
-                                    </div>
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-                                </div>
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-                                <input class="btn pull-right mt-16" type="submit" value="SEND">
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+	</div>
 
-                            </form>
-                        </div>
-                    </div>
-    
-                </div>
-            </div>
-            <!-- End-Contact section -->
-
-            <div class="map-section">
-                <img src="./assests/img/map/map.jpg" alt="Map">
-            </div>
-   
-        </div>
-        
-        <div id="footer">
-            <div class="socials-list">
-                <a href=""><i class="ti-facebook"></i></a>
-                <a href=""><i class="ti-instagram"></i></a>
-                <a href=""><i class="ti-youtube"></i></a>
-                <a href=""><i class="ti-pinterest"></i></a>
-                <a href=""><i class="ti-twitter"></i></a>
-                <a href=""><i class="ti-linkedin"></i></a>
-            </div>
-            <p class="copy-right">
-                Powered by <a href="">w3.css</a>
-            </p>
-        </div>
-    </div>
-    <!-- MODAL -->
-    <div class="modal js-modal">
-        <div class="modal-container js-modal-container">
-            <div class="modal-close js-modal-close">
-                <i class="ti-close"></i>
-            </div>
-
-            <header class="modal-header">
-                <i class="modal-heading-icon ti-bag"></i>
-                Tickets
-            </header>
-
-            <div class="modal-body">
-                <label for="ticket-quantity" class="modal-label">
-                    <i class="ti-shopping-cart"></i>
-                    Tickets, $15 per person
-                </label>
-                <input id="ticket-quantity" type="text" class="modal-input" placeholder="How many?">
-    
-                <label for="ticket-email" class="modal-label">
-                    <i class="ti-shopping-cart"></i>
-                    Send To
-                </label>
-                <input id="ticket-email" type="email" class="modal-input" placeholder="Enter email...">
-
-                <button id="buy-tickets">
-                    Pay <i class="ti-check"></i>
-                </button> 
-            </div>
-
-            <footer class="modal-footer">
-                <p class="modal-help">Need <a href="">help?</a></p>
-            </footer>
-        </div>   
-    </div>
-
-    <script>
-        const buyBtns = document.querySelectorAll('.js-buy-ticket')
-        const modal = document.querySelector('.js-modal')
-        const modalContainer = document.querySelector('.js-modal-container')
-        const modalClose = document.querySelector('.js-modal-close')
-
-        function showBuyTicket(){
-            modal.classList.add('open')
-        }
-
-        function hideBuyTicket(){
-            modal.classList.remove('open')
-        }
-
-        for(const buyBtn of buyBtns){
-            buyBtn.addEventListener('click',showBuyTicket)
-        }
-
-        modalClose.addEventListener('click',hideBuyTicket)
-
-        modal.addEventListener('click',hideBuyTicket)
-
-        modalContainer.addEventListener('click',function(event){
-            event.stopPropagation()
-        })
-    </script>
-
-
-
+	<!------footer start--------->
+	<footer>
+		<p>Tahmid Ahmed</p>
+		<p>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-dribbble"></i></a>
+		</div>
+		<p class="end">CopyRight By Tahmid Ahmed</p>
+	</footer>
 </body>
 </html>
